@@ -1,45 +1,241 @@
 body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.navbar{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.links{
+    display: flex;
+}
+.about{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.top{   
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1f2937;  
+    padding: 100px;
+}
+.resize{
+    height: 200px;
+    width: 400px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button-one{
+    width: 100px;
+    padding: 3px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+a{
+    color: #e5e7eb;
+}
+.middle-white{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.items{
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.st{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sub{
+    justify-self: center;
+    width: 110px;
+}
+li{
+    list-style-type: none;
+}
+.quote{
+    padding: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    text-align: center;
+}
+.q{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 1000px;
+    margin-left: 350px;
+}
+.author{
+    align-self:end;
+}
+.container-two{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 200px 80px 200px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-items: center;
+    
+    
+}
+.button-two{
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px #f9faf8;
+    border-style: solid;
+}
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+}
+
+
+
+
+
+
+/*
+body{
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 .container{
+
     display: flex;
-    flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
+
 }
 .navbar{
-    padding: 20px 0 20px 100px;
+    padding: 20px 100px 20px 100px;
     display: flex;
     text-align: center;
     justify-content: space-between;
 
 }
 .logo{
-    width: 84px;
-    height: 84px;
-    margin-right: 250px;
+    padding: 10px;
 }
 a {
     color: #f9faf8;
-    padding: 0 20px 0 0;
-    margin-right: 100px;
+    padding: 10px;
 }
-.top{
+.home{
+    margin-left: auto;
+}
+ .container-two{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+ }   
+ .top{
+
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    max-width: 900px;
+    padding: 20px;
+    margin:auto;
+    max-width: 400px;
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+    right: 200px;
+    top: 75px;
+
+
+}
+
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8; 
+    align-self: center;
+    justify-self: center;
+    max-width: 300px;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    align-self: center;
+    max-width: 300px;
 }
 .resize{
-    max-width: 400px;
-    max-height: 125px;
+    width: 350px;
+    height: 220px;
+    position: relative;
+    left: 200px;
+    bottom: 165px;
 }
-.top{
-
+.button-one{
+    max-width: 85px;
+    max-height: 80px;
+    position: relative;
+    left: 50px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.middle{
     align-items: center;
-    justify-content: center;
-    padding: 90px;
 }
+.middle-white{    
+    text-align: center;
+    flex-wrap: wrap;
+}
+.pic{
+    display: inline-block;
+}
+
+
+
+
+
+
